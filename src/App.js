@@ -17,7 +17,7 @@ function App() {
       <article>
         <h1>FAQ</h1>
         {quests.map((quest, index) => (
-          <SingleQuestion key={index} {...quest}/* question={quest.question} answer={quest.answer}*//>
+          <SingleQuestion key={index} {...quest}/*  question={quest.question} answer={quest.answer}*//>
         ))}
       </article>
     </div>
